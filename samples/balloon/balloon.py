@@ -142,7 +142,7 @@ class BalloonDataset(utils.Dataset):
                 polygons=polygons)
 
     def load_mask(self, image_id):
-        print(image_id)
+        #print(image_id)
         """Generate instance masks for an image.
        Returns:
         masks: A bool array of shape [height, width, instance count] with
